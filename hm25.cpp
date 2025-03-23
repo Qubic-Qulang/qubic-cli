@@ -26,6 +26,10 @@ enum hm25ProcedureId
     Burn = 2
 };
 
+
+
+
+
 void hm25Echo(const char* nodeIp, int nodePort, char* seed, uint64_t amount, uint32_t scheduledTickOffset)
 {
     auto qc = make_qc(nodeIp, nodePort);
@@ -137,7 +141,7 @@ void hm25Burn(const char* nodeIp, int nodePort, char* seed, uint64_t amount, uin
     LOG("to check your tx confirmation status\n");
 }
 
-void hm25GetStats(const char* nodeIp, int nodePort)
+void  (const char* nodeIp, int nodePort)
 {
     auto qc = make_qc(nodeIp, nodePort);
     struct {

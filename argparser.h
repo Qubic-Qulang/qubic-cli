@@ -265,6 +265,9 @@ void print_help()
     printf("\t\tGet MsVault fees.\n");
     printf("\t-msvaultgetvaultowners <VAULT_ID>\n");
     printf("\t\tGet MsVault owners given vault ID.\n");
+    printf("\t\tMardid 2025 Hackton\n");
+    printf("\t-hm25echo <int amount>\n");
+    printf("\t-hm25burn <int amount>\n");
 }
 
 static long long charToNumber(char* a)

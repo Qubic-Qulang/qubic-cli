@@ -245,6 +245,13 @@ Command:
 			Get MsVault fees.
 	-msvaultgetvaultowners <VAULT_ID>
 			Get MsVault owners given vault ID.
+
+[Madrid Hackaton 2025]
+	-hm25echo <amount>
+		Make a transaction in the smart contract
+	-hm25burn <amount>
+		To burn on the smart contract
+
 ```
 
 ### BUILD
